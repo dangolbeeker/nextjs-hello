@@ -1,15 +1,36 @@
-//Link API
-import Link from 'next/link';
+import Header from '../components/Header';
 
-
-
-const Index = () => (
+export default function Index() {
+  return (
     <div>
-        <Link href="/about">
-            <a>About Page</a>
-        </Link>
-        <p>Hello Next.js</p>
+      <Header />
+      <p>Hello Next.js</p>
     </div>
-);
+  );
+}
 
-export default Index;
+
+
+
+
+
+
+
+
+
+
+// //Link API
+// import Link from 'next/link';
+
+
+
+// const Index = () => (
+//     <div>
+//         <Link href="/about" title="About Page">
+//             <a>About Page</a>
+//         </Link>
+//         <p>Hello Next.js</p>
+//     </div>
+// );
+
+// export default Index;
